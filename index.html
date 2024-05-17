@@ -33,7 +33,7 @@
 
         <!-- nav -->
         <nav
-          class="flex items-center gap-x-5 bg-neutral-300 px-5 py-2 sm:gap-x-10 sm:px-[10%]"
+          class="flex items-center py-3 gap-x-5 bg-neutral-300 px-5 sm:gap-x-10 sm:px-[10%]"
         >
           <p class="sm:hidden">
             <span class="material-symbols-outlined">menu</span>
@@ -151,6 +151,28 @@
           </p>
         </nav>
       </header>
+
+      <!-- hero section -->
+
+      <section class="relative h-[80vh] sm:h-[90vh]">
+        <!-- background image -->
+        <img src="src/assets/hero.jpg" class="w-full h-full object-fill" alt="">
+
+        <!-- caption -->
+        <div class="absolute bottom-0 sm:bottom-[30%] sm:left-[10%] w-full sm:w-[40%] bg-black bg-opacity-60 h-[40%] space-y-2 p-5">
+            <p class="font-semibold text-white text-2xl">Let's grow together?</p>
+            <p class="text-white">Lorem ipsum dolor, sit amet consectetur adipisicing elit. Ratione omnis accusantium incidunt. Maxime, quia rerum! Voluptate, officiis? Consectetur, cum aliquid.</p>
+            <button class="bg-yellow-600 font-semibold">See More</button>
+        </div>
+
+        <!-- slide buttons -->
+        <div class="absolute left-0 top-[50%] translate-y-[-50%] bg-yellow-600 p-2 flex items-center justify-center">
+            <span class="text-white material-symbols-outlined">chevron_left</span>
+        </div>
+        <div class="absolute right-0 top-[50%] translate-y-[-50%] bg-yellow-600 p-2 flex items-center justify-center">
+            <span class="text-white material-symbols-outlined">chevron_right</span>
+        </div>
+      </section>
     </div>
   </body>
 </html>
