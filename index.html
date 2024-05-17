@@ -7,7 +7,10 @@
     <link rel="stylesheet" href="src/styles/output.css" />
     <link rel="stylesheet" href="src/styles/custom.css" />
     <!-- google icons -->
-    <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:opsz,wght,FILL,GRAD@20..48,100..700,0..1,-50..200" />
+    <link
+      rel="stylesheet"
+      href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:opsz,wght,FILL,GRAD@20..48,100..700,0..1,-50..200"
+    />
     <title>University of Porto</title>
   </head>
   <body>
@@ -29,15 +32,17 @@
         </div>
 
         <!-- nav -->
-        <nav class="flex items-center py-2 px-5 gap-x-5 bg-neutral-300">
-            <p class="sm:hidden">
-                <span class="material-symbols-outlined">menu</span>
-            </p>
+        <nav
+          class="flex items-center gap-x-5 bg-neutral-300 px-5 py-2 sm:gap-x-10 sm:px-[10%]"
+        >
+          <p class="sm:hidden">
+            <span class="material-symbols-outlined">menu</span>
+          </p>
 
           <svg
             xmlns="http://www.w3.org/2000/svg"
             viewBox="0 0 235.43534 72.22169"
-            class="w-[30%] h-auto sm:w-[20%]"
+            class="h-auto w-[30%] sm:w-[20%]"
           >
             <defs>
               <style>
@@ -125,8 +130,24 @@
             ></path>
           </svg>
 
-          <p class="sm:hidden ml-auto">
-              <span class="material-symbols-outlined">menu</span>
+          <p class="hidden text-xl font-semibold sm:block">STUDY</p>
+          <p class="hidden text-xl font-semibold sm:block">RESEARCH</p>
+          <p class="hidden text-xl font-semibold sm:block">INNOVATE</p>
+          <p class="hidden text-xl font-semibold sm:block">LIVE</p>
+          <p class="hidden text-xl font-semibold sm:block">EXPLORE</p>
+          <div class="hidden border-b border-black sm:flex sm:items-center">
+            <input
+              type="text"
+              name=""
+              id=""
+              placeholder="search"
+              class="border-none bg-transparent px-3 outline-none"
+            />
+            <span class="material-symbols-outlined">search</span>
+          </div>
+
+          <p class="ml-auto sm:hidden">
+            <span class="material-symbols-outlined">menu</span>
           </p>
         </nav>
       </header>
