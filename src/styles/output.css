@@ -649,6 +649,22 @@ video {
   height: 8-vh;
 }
 
+.h-\[25rem\] {
+  height: 25rem;
+}
+
+.h-\[28rem\] {
+  height: 28rem;
+}
+
+.h-\[\] {
+  height: ;
+}
+
+.h-\[30rem\] {
+  height: 30rem;
+}
+
 .w-1\/2 {
   width: 50%;
 }
@@ -1051,6 +1067,10 @@ video {
     height: 100%;
   }
 
+  .sm\:h-\[30rem\] {
+    height: 30rem;
+  }
+
   .sm\:w-1\/2 {
     width: 50%;
   }
@@ -1129,6 +1149,16 @@ video {
 
   .sm\:border-b {
     border-bottom-width: 1px;
+  }
+
+  .sm\:object-cover {
+    -o-object-fit: cover;
+       object-fit: cover;
+  }
+
+  .sm\:object-fill {
+    -o-object-fit: fill;
+       object-fit: fill;
   }
 
   .sm\:px-\[10\%\] {
