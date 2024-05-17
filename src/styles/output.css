@@ -645,6 +645,10 @@ video {
   height: 100%;
 }
 
+.h-\[8-vh\] {
+  height: 8-vh;
+}
+
 .w-1\/2 {
   width: 50%;
 }
