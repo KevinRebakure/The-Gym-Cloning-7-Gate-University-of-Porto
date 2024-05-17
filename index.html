@@ -459,33 +459,50 @@
           class="block w-full border-2 border-black px-10 py-3 sm:hidden"
         />
 
-        <nav class="hidden">
-          <p>International Students</p>
-          <p>Prospective Students</p>
-          <p>Professionals</p>
-          <p>Alumni</p>
-          <p>U.Porto Students</p>
+        <nav class="hidden sm:flex sm:items-center sm:gap-x-5 sm:border-b text-gray-500">
+          <p class="py-2 text-xl font-semibold border-b border-black text-black">International Students</p>
+          <p class="py-2 hover:border-b hover:z-10 hover:border-black text-xl hover:text-black">Prospective Students</p>
+          <p class="py-2 hover:border-b hover:z-10 hover:border-black text-xl hover:text-black">Professionals</p>
+          <p class="py-2 hover:border-b hover:z-10 hover:border-black text-xl hover:text-black">Alumni</p>
+          <p class="py-2 hover:border-b hover:z-10 hover:border-black text-xl hover:text-black">U.Porto Students</p>
         </nav>
 
-        <!-- image -->
-        <img
-          src="src/assets/frequentlyaskedquestions1.jpg"
-          class="w-full"
-          alt=""
-        />
+        <!-- content -->
+        <div class="w-full space-y-5 sm:space-y-0 sm:grid sm:grid-cols-2 sm:gap-x-5 border border-black">
+          <!-- image -->
+          <img
+            src="src/assets/frequentlyaskedquestions1.jpg"
+            class="w-full sm:order-1 sm:h-full"
+            alt=""
+          />
 
-        <!-- paragraphs -->
-        <article class="space-y-5">
-          <h2 class="text-2xl font-semibold">International Students</h2>
+          <!-- paragraphs -->
+          <article class="space-y-5 border border-black sm:flex sm:flex-col sm:justify-between">
+            <h2 class="text-2xl font-semibold">International Students</h2>
 
-          <p>
-            Welcome! In this area you will find the answers you need to start
-            and make the most of your experience at the University. We hope to
-            help you... and welcome you soon!
-          </p>
+            <p>
+              Welcome! In this area you will find the answers you need to start
+              and make the most of your experience at the University. We hope to
+              help you... and welcome you soon!
+            </p>
 
-          <button class="font-bold text-yellow-500">Learn More</button>
-        </article>
+            <button class="font-bold text-yellow-500 self-start">Learn More</button>
+
+            <!-- buttons -->
+            <div class="hidden sm:flex items-center gap-x-3">
+              <div
+                class="flex size-[3rem] items-center justify-center bg-yellow-500 text-white"
+              >
+                <span class="material-symbols-outlined">chevron_left</span>
+              </div>
+              <div
+                class="flex size-[3rem] items-center justify-center bg-yellow-500 text-white"
+              >
+                <span class="material-symbols-outlined">chevron_right</span>
+              </div>
+            </div>
+          </article>
+        </div>
       </section>
     </div>
   </body>
